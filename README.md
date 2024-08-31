@@ -1,4 +1,6 @@
 ## This repo is to update the repository variables set in bitbucket respoistories
+basically this was setup to update the server ip variable so that when deploying it 
+can help in direct and canary deployment to the serer
 
 ```python
     1. create bitbucket application passowrd
