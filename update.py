@@ -65,7 +65,7 @@ def update_or_create_variable(variable_name, new_value):
             print(f'Failed to create {variable_name}. Status code: {create_response.status_code}')
 
 def main():
-    for i in range(1, 16): # increase the limit if you have more varaibles
+    for i in range(1, 17): # increase the limit if you have more varaibles
         variable_name = f'server{i}'  # Variable names are in lowercase
         new_value = os.getenv(f'SERVER{i}')  # Fetch the value from .env using uppercase
 
